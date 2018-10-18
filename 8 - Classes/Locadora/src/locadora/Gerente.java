@@ -14,7 +14,7 @@ public class Gerente extends Funcionario{
     
     public boolean AddFunc(){
         Funcionario f = new Funcionario();
-        System.out.println("\n[ADICIONAR Funcionario]\n");
+        System.out.println("\n[ADICIONAR FUNCIONARIO]\n");
         System.out.print("NOME: ");
         f.setNome(scan.next());
         System.out.print("CPF: ");
@@ -67,7 +67,7 @@ public class Gerente extends Funcionario{
     
     public boolean ExcluiFuncionario(){
         ListaClientes();
-        System.out.println("\n[REMOVER Funcionario]\n"
+        System.out.println("\n[REMOVER FUNCIONARIO]\n"
             + "Digite o id do funcionario:");
         int id = scan.nextInt();
         for(int i = 0; i < funcionarios.size(); i++){
