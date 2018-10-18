@@ -88,7 +88,7 @@ public class Gerente extends Funcionario{
             for (int i = 0; i < funcionarios.size(); i++){
                 if(funcionarios.get(i).getId_funcionario() == id){            
                     funcionarios.get(i).ImprimeFunc();
-                    System.out.println("[EDITAR CLIENTE]\n\n");
+                    System.out.println("[EDITAR FUNCIONARIO]\n\n");
                     System.out.print("NOME: ");
                     funcionarios.get(i).setNome(scan.next());
                     System.out.print("CPF: ");
